@@ -1,0 +1,22 @@
+body{
+    color: black;
+    font-family: sans-serif;
+}
+
+#app{
+    width: 50%;
+}
+
+.erorr{
+    color: red;
+}
+
+.active{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 720px){
+    #app{
+        width: 95%;
+    }
+}
